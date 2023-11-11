@@ -1,0 +1,50 @@
+
+
+:root {
+    --primary-color: #0A1727; 
+    --accent-color: #0A1727;
+    /* --background-color: #DFDDC7;  */
+    --background-color: #fff; 
+  }
+
+  .hero-section {
+    background-image: url('https://img.freepik.com/premium-photo/view-full-moon-body-water-generative-ai_901242-164.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Full viewport height */
+    color: #fff; /* Assuming a dark background image */
+}
+
+/* Custom Button Styling */
+.get-started-btn {
+    background-color: #0A1727; /* Your primary color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+}
+
+.get-started-btn:hover {
+    background-color: #073456; /* Darker shade or different color for hover */
+}
+
+/* Responsive adjustments with Bootstrap classes */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem; /* Adjust size for smaller screens */
+    }
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+div{
+    color: --prim;
+}
+#main-heading{
+    font-weight: 500;
+    color: #fff;
+  
+}
+

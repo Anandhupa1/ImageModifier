@@ -1,0 +1,108 @@
+/* Root Variables */
+:root {
+    --primary-color: #0A1727; /* Primary color */
+    --gradient-start: #007bff; /* Blue color for gradient start */
+    --gradient-end: #6610f2; /* Purple color for gradient end */
+    --text-color: #fff; /* White text color for better contrast */
+}
+
+/* Section Styling */
+section.vh-100 {
+    background-color: #fff; /* Using primary color for background */
+}
+
+/* Card Styling */
+.card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 1rem;
+}
+
+/* Image Styling */
+.img-fluid {
+    border-radius: 1rem 0 0 1rem;
+}
+
+/* Form Styling */
+.card-body {
+    color: var(--primary-color); /* Primary color for text */
+}
+
+/* Form Inputs */
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-label {
+    color: var(--primary-color);
+}
+
+/* Buttons */
+.btn {
+    background-image: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+    color: var(--text-color);
+    border: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to left, var(--gradient-start), var(--gradient-end));
+}
+
+/* Link Styling */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--gradient-start);
+}
+/* Root Variables */
+:root {
+    --primary-color: #0A1727; /* Primary color */
+}
+
+/* Apply primary color to all text inside the card-body */
+.card-body {
+    color: var(--primary-color);
+}
+
+/* Form Labels */
+.card-body .form-label {
+    color: var(--primary-color);
+}
+
+/* Adjust the color for links and placeholders */
+.card-body a, .card-body ::placeholder {
+    color: var(--primary-color);
+}
+
+/* Adjust the color of headers and any other specific elements as needed */
+.card-body .h1, .card-body h5 {
+    color: var(--primary-color);
+}
+
+/* Ensuring input text color */
+.card-body .form-control {
+    color: var(--primary-color);
+}
+
+/* Optional: Change border color of inputs on focus to match primary color */
+.card-body .form-control {
+    border-color: var(--primary-color) !important;
+   
+}
+.card-body .form-control:focus {
+    border-color: var(--primary-color) !important;
+    
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* Add any specific styles for tablet view */
+}
+
+@media (max-width: 480px) {
+    /* Add any specific styles for mobile view */
+}

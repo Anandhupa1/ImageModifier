@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Manager</title>
+    <!-- cdns start -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Armata&family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,600;0,700;1,700&family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,100;1,300;1,900&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- cdns end -->  
+    <!-- vanilla css start     -->
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/common.css">
+    <!-- vanilla css start     -->
+    
+</head>
+<body>
+  <div class="loader-overlay"></div>
+  <div class="loader"></div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="/Frontend">
+        <i class="fas fa-camera-retro fa-1x me-3 p-0 " style="color: #0A1727;"></i>
+        <div class="h-full ">VisionCanvas</div>
+      </a>
+      <!-- Left links -->
+     
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto  mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./upload.html">Upload</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/signup.html">Sign Up</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+   
+
+  
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="https://axies-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimages%2Favatar%2Favt-12.jpg&w=64&q=75"
+            class="rounded-circle"
+            height="35"
+            
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+        </a>
+      
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+
+  <!-- Hero section starts -->
+  <div class="container-fluid p-0">
+    <div class="row no-gutters">
+        <div class="col hero-section d-flex align-items-center justify-content-center">
+            <div class="text-center">
+                <h1 id="main-heading" class="display-4 text-white font-weight-bolder">Welcome to VisionCanvas</h1>
+                <p class="lead">An all in one solution to manage your images</p>
+                
+            </div>
+        </div>
+    </div>
+  </div>
+ <!-- hero section ends  -->
+
+
+
+ <div class="container py-4">
+  <div style="display: flex; justify-content: space-between; align-items:center;">
+    <h1 style="padding-top: 20px;padding-bottom: 20px;">Latest Images</h1>
+   
+  </div>
+ 
+  <div id="row" class="row">
+    <div class="col-md-4 mb-3">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/009/007/126/small/document-file-not-found-search-no-result-concept-illustration-flat-design-eps10-modern-graphic-element-for-landing-page-empty-state-ui-infographic-icon-vector.jpg" alt="">
+      <!-- cards form js goes here -->
+
+      </div>
+     
+   
+      
+    </div>
+   
+  </div>
+  
+
+
+
+
+
+<!-- Footer -->
+<footer class="footer text-white " style="padding-top: 50px;">
+  <div class="container ">
+      <div class="row">
+          <!-- Footer Navigation Links -->
+          <div class="col-md-4 mb-3">
+              <div style="display: flex;">
+                <i class="fas fa-camera-retro fa-2x me-3 p-0 " style="color: #fff;"></i>
+                <h5>VisionCanvas</h5>
+              </div>
+             
+              <p>The all in one solution to manage your images</p>
+          </div>
+          <div class="col-md-4 mb-3">
+            
+              <ul class="list-unstyled">
+                  <li><a href="./upload.html" class="footer-link">Upload Image</a></li>
+                  <li><a href="./gallery.html" class="footer-link">Image Gallery</a></li>
+                  <!-- More links as needed -->
+              </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+             
+              <ul class="list-unstyled">
+                  <li><a href="./pages/login.html" class="footer-link">Log In</a></li>
+                  <li><a href="./pages/signup.html" class="footer-link">Sign Up</a></li>
+                  <!-- More links as needed -->
+              </ul>
+          </div>
+      </div>
+      
+      <!-- Copyright -->
+      <div class="text-center mt-4">
+          <p class="mb-0">&copy; 2021 VisionCanvas</p>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+></script>
+<!-- vanilla js start -->
+<script src="./assets/scripts/common.js"></script>
+<script src="./assets/scripts/index.js"></script>
+<!-- vanilla js end -->
+<!-- cdn start -->
+    <!-- MDB js -->
+    <!-- MDB -->
+
+<!-- cdn end -->
+
+</body>
+
+</html>
