@@ -1,5 +1,5 @@
-let baseUrl = "http://localhost:4500";
-
+// let baseUrl = "http://localhost:4500";
+let baseUrl = "https://lovely-cow-houndstooth.cyclic.app"
 document.addEventListener('DOMContentLoaded', function (e) {
     e.preventDefault()
     var image = document.getElementById('image'); // Image where we'll set the source
