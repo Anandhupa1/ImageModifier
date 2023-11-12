@@ -1,7 +1,5 @@
 # Visual Canvas: Image Modifier 🖼️
 
-🌐 **Live Link**: [Visual Canvas](https://visual-canvas-image-modifier.vercel.app)  
-🔗 **Server Link**: [Backend Server](https://lovely-cow-houndstooth.cyclic.app/)
 
 ---
 
