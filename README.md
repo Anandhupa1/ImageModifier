@@ -17,7 +17,57 @@ Visual Canvas is a robust web application designed to revolutionize the way user
 - **Responsive Design**: Fully adaptable to various devices and screens. 📱💻
 - **Optimized Storage**: Advanced image size reduction and .webp conversion. 💾
 
-## Additional Information
 
-Visual Canvas is built on a robust Node.js and Express.js backend, MongoDB for efficient data handling, and features a sleek front-end design using HTML, CSS, and JavaScript with Bootstrap for responsiveness.
+## Tech Stack
+
+**Client:** HTML, CSS , Javascript , Bootstrap
+
+**Server:** NodeJS, Express
+
+**Database:** MongoDB
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Anandhupa1/ImageModifier.git
+```
+
+Go to the project directory
+
+```bash
+  cd ImageModifier
+```
+
+## Environment Variables
+
+To run the backend server of this project, you will need to add the following environment variables to your .env file inside Backend folder.
+
+`MONGOURI=mongodb+srv://*****:*****@cluster0.j8dbuza.mongodb.net/ImageManager@latest?retryWrites=true&w=majority `
+`PORT=4500`
+`JWT_SECRET=secret1`
+`SERVER_DEPLOYED_URL=http://localhost:4500`
+after successfully creating backend server , you can run the server by following the below steps.
+
+Run the server locally
+```bash
+  cd Backend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run server
+```
+
+
+
 
