@@ -43,13 +43,14 @@ Go to the project directory
 
 ## Environment Variables
 
-To run the backend server of this project, you will need to add the following environment variables to your .env file inside Backend folder.
+create a .env file inside Backend folder , copy paste the below keys and values inside it,
 
 `MONGOURI=mongodb+srv://*****:*****@cluster0.j8dbuza.mongodb.net/ImageManager@latest?retryWrites=true&w=majority `
 `PORT=4500`
 `JWT_SECRET=secret1`
 `SERVER_DEPLOYED_URL=http://localhost:4500`
-after successfully creating backend server , you can run the server by following the below steps.
+Make sure to replace the `MONGOURI` with your original mongodb atlas connection url.
+after successfully creating .env file you can run the server by following the steps below.
 
 Run the server locally
 ```bash
