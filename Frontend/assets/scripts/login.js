@@ -34,7 +34,7 @@ form.addEventListener("submit",async(e)=>{
             else if(res.status=="404"){
         
               showAlert("",data.message,"warning")
-              setTimeout(()=>{window.location.href="/Frontend/pages/signup.html"},3000)
+              setTimeout(()=>{window.location.href="pages/signup.html"},3000)
               
               
             }

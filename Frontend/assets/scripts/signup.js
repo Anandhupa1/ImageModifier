@@ -27,7 +27,7 @@ form.addEventListener("submit",async(e)=>{
             if(res.status=="201"){
                 showAlert("success",data.message,"success");
                 setTimeout(()=>{
-                    window.location.href="/Frontend/pages/login.html"
+                    window.location.href="pages/login.html"
                 },3000)
             }
             else if(res.status=="500"){
@@ -36,7 +36,7 @@ form.addEventListener("submit",async(e)=>{
             else if(res.status=="409"){
               showAlert("Please Login",data.message,"warning")
               setTimeout(()=>{
-                window.location.href="/Frontend/pages/login.html"
+                window.location.href="pages/login.html"
             },3000)
             }
             else {
