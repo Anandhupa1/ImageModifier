@@ -1,5 +1,5 @@
-// let baseUrl = "http://localhost:4500"
-let baseUrl = "https://lovely-cow-houndstooth.cyclic.app"
+let baseUrl = "http://localhost:4500"
+// let baseUrl = "https://lovely-cow-houndstooth.cyclic.app"
 
 if(!sessionStorage.getItem("token")){window.location.href="pages/login.html"}
 else {
